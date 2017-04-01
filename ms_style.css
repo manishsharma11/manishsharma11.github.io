@@ -1,0 +1,154 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	margin:0;
+	padding:0;
+	font-size:40px;
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+header{
+	width:100%;
+	height:60px;
+	margin:-20px -8px;
+	background:#00abcd;
+	color:white;
+	position:fixed;
+	z-index:1;
+}
+h2{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+p{
+	line-height:1.5em;
+	word-break:break-all;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.head{
+	padding:0px 30px;
+}
+.head-item-type{
+	float:left;
+}
+.pluse{
+	font-size:50px;
+	font-variant: small-caps;
+}
+
+nav{
+	float:left;
+	height:60px;
+	font-variant: small-caps;
+	position:relative;
+	left:180px;
+	font-size:20px;
+	padding:0px;
+	margin:0;
+}
+
+ul{
+	list-style-type:none;
+	padding:0;
+	margin-bottom:0px;
+	z-index:1;
+	float:left;
+}
+ul li{
+	float:left;
+	position:relative;
+}
+.align{
+	text-align:center;
+}
+/* This hides the dropdowns */
+li ul {display:none;}
+ul li a.nav:link, a.nav:visited{
+	display:block;
+	padding:10px;
+	height:40px;
+	width:140px;
+	text-decoration:none;
+	color:white;
+}
+
+/* Display the dropdowns */
+li:hover > ul {
+	display:block;
+	position:absolute;
+}
+
+li:hover li{
+	float:none;
+}
+ul li:hover a:hover{
+	background:#1A0000;
+	border-radius:5px 5px 0 0;
+}
+li ul{
+	min-width:140px;
+	background:#00abcd;
+	border-radius:0 0px 5px 5px;
+}
+li ul li:hover{
+	background:#1A0000;
+}
+
+ul ul ul {
+  left: 100%;
+  top:0px;
+}
+
+form{
+	margin:20px;
+	padding:5px;
+	float:left;
+}
+.search-item-1{
+	width:220px;
+	height:30px;
+	border-radius:5px 0 0 5px;
+	border:0;
+	padding:10px;
+	
+}
+.search-item-2{
+	background:url(searchIcon.png) no-repeat 12px 8px grey;
+	width:45px;
+	height:30px;
+	padding:11px;
+	border:0px;
+	border-radius:0px 5px 5px 0px;
+}
+
+.section{
+	position:relative;
+	top:52px;
+	height:100%;
+	width:100%;
+}
+
+.section-item-1{
+	background-color:grey;
+	width:250px;
+	min-height:800px;
+	padding:0;
+	margin:-20px -8px 5px 5px;
+	float:right;
+}
+.section-item-2{
+	margin:0px;
+	
+	position:relative;
+}
+.img{
+	margin:5px 5px -2px 0;
+	position:relative;
+	float:left;
+	z-index:-1;
+}
+footer{
+	margin:8px;
+	height:100px;
+	background:#000;
+}
