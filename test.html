@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body><nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</body>
+
+<!-- Mirrored from www.w3schools.com/bootstrap/tryit.asp?filename=trybs_grid_ex1&stacked=h by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jul 2015 21:57:28 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+			
+		<div class="specf">
+		<div class="mhead">Model <?php echo " '".$first_model."'";?></div>
+		<div class="contain">
+			<ul class="datcom">
+			<div><h2>General</h2></div>
+			<li>
+				<div class="wbc">Model Number</div>
+				<ul class="propview">
+					<li><?php echo $row['model_no'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Model Name</div> 
+				<ul class="propview">
+					<li><?php echo $row['model_name'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Color</div> 
+				<ul class="propview">
+					<li><?php echo $row['color'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Browse Type </div>
+				<ul class="propview">
+					<li><?php echo $row['browse_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Sim Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['sim_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Touchscreen </div>
+				<ul class="propview">
+					<li><?php echo $row['touchscreen'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">OTG Compatible</div> 
+				<ul class="propview">
+					<li><?php echo $row['otg_compatible'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Hybrid Sim Slote</div> 
+				<ul class="propview">
+					<li><?php echo $row['hybrid_sim_slote'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Display Features</h2></div>
+			
+			<li>
+				<div class="wbc">Display Size</div> 
+				<ul class="propview">
+					<li><?php echo $row['display_size'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Resolution</div> 
+				<ul class="propview">
+					<li><?php echo $row['resolution'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Resolution Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['resolution_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Display Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['display_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPU</div> 
+				<ul class="propview">
+					<li><?php echo $row['gpu'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Other Display Features</div> 
+				<ul class="propview">
+					<li><?php echo $row['other'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Os & Processor Features</h2></div>
+			
+			<li>
+				<div class="wbc">Operation System</div> 
+				<ul class="propview">
+					<li><?php echo $row['operating_system'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['processor_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Core</div> 
+				<ul class="propview">
+					<li><?php echo $row['processor_core'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Clock Speed</div>
+				<ul class="propview">
+					<li><?php echo $row['processor_clock_speed'];?></li>
+				</ul>
+			</li>
+			<li>	
+				<div class="wbc">Operating Frequency</div>
+				<ul class="propview">
+					<li><?php echo $row['operating_frequency'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Memory & Storage Features</h2></div>
+			
+			<li>
+				<div class="wbc">Internal Storage</div> 
+				<ul class="propview">
+					<li><?php echo $row['internal_storage'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">RAM</div>
+				<ul class="propview">
+					<li><?php echo $row['ram'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Expandable Storage</div> 
+				<ul class="propview">
+					<li><?php echo $row['expandable_storage'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Storage Memory Card Type</div>
+				<ul class="propview">
+					<li><?php echo $row['storage_memory_card_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Memory Card Slot Type</div>
+				<ul class="propview">
+					<li><?php echo $row['memory_card_slot_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Call Log Memory</div> 
+				<ul class="propview">
+					<li><?php echo $row['call_log_memory'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Camera Features</h2></div>
+			
+			<li>
+				<div class="wbc">Primary Camera Available</div> 
+				<ul class="propview">
+					<li><?php echo $row['prime_available'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Primary Camera</div>
+				<ul class="propview">
+					<li><?php echo $row['primary_camera'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Primary Camera Features</div>
+				<ul class="propview">
+					<li><?php echo $row['prime_features'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera Available</div> 
+				<ul class="propview">
+					<li><?php echo $row['sec_available'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera</div>
+				<ul class="propview">
+					<li><?php echo $row['secondary_camera'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera Features</div>
+				<ul class="propview">
+					<li><?php echo $row['sec_features'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">HD Recording</div>
+				<ul class="propview">
+					<li><?php echo $row['hd_recording'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Full HD Recording</div> 
+				<ul class="propview">
+					<li><?php echo $row['full_hd_recording'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Connectivity Features</h2></div>
+			<li>
+				<div class="wbc">Network Type</div>
+				<ul class="propview">
+					<li><?php echo $row['network_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Supported Networks</div>
+				<ul class="propview">
+					<li><?php echo $row['supported_network'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">3G</div>
+				<ul class="propview">
+					<li><?php echo $row['3g'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">3G Speed</div>
+				<ul class="propview">
+					<li><?php echo $row['3g_speed'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Pre-installed Browser</div>
+				<ul class="propview">
+					<li><?php echo $row['preinstalled_browser'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Micro USB Port</div>
+				<ul class="propview">
+					<li><?php echo $row['micro_usb_port'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Bluetooth Support</div>
+				<ul class="propview">
+					<li><?php echo $row['bluetooth_support'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Bluetooth Version</div>
+				<ul class="propview">
+					<li><?php echo $row['bluetooth_version'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPRS</div>
+				<ul class="propview">
+					<li><?php echo $row['gprs'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Wi-Fi</div>
+				<ul class="propview">
+					<li><?php echo $row['wifi'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Wi-Fi Version</div>
+				<ul class="propview">
+					<li><?php echo $row['wifi_version'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">USB Connectivity</div>
+				<ul class="propview">
+					<li><?php echo $row['usb_connectivity'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Audio Jack</div>
+				<ul class="propview">
+					<li><?php echo $row['audio_jack'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Map Support</div>
+				<ul class="propview">
+					<li><?php echo $row['map_support'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPS Support</div>
+				<ul class="propview">
+					<li><?php echo $row['gps_support'];?></li>
+				</ul>
+			</li>
+			<div><h2>Other Details</h2></div>
+			<li>
+				<div class="wbc">Sim Size</div>
+				<ul class="propview">
+					<li><?php echo $row['sim_size'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">User Interface</div>
+				<ul class="propview">
+					<li><?php echo $row['user_interface'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Removable Battery</div>
+				<ul class="propview">
+					<li><?php echo $row['removable_battery'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">SMS</div>
+				<ul class="propview">
+					<li><?php echo $row['sms'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Sensor</div>
+				<ul class="propview">
+					<li><?php echo $row['sensor'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Other Features</div>
+				<ul class="propview">
+					<li><?php echo $row['other_features'];?></li>
+				</ul>
+			</li>
+			<div><h2>Multimedia Features</h2></div>
+			<li>
+				<div class="wbc">FM Radio</div>
+				<ul class="propview">
+					<li><?php echo $row['fm_radio'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Audio Formate</div>
+				<ul class="propview">
+					<li><?php echo $row['audio_formate'];?></li>
+				</ul>
+			</li>
+			<div><h2>Battery & Power Features</h2></div>
+			<li>
+				<div class="wbc">Battery Capacity</div>
+				<ul class="propview">
+					<li><?php echo $row['battery_capacity'];?></li>
+				</ul>
+			</li>
+			<div><h2>Dimensions</h2></div>
+			<li>
+				<div class="wbc">Width</div>
+				<ul class="propview">
+					<li><?php echo $row['width'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Height</div>
+				<ul class="propview">
+					<li><?php echo $row['height'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Depth</div>
+				<ul class="propview">
+					<li><?php echo $row['depth'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">weight</div>
+				<ul class="propview">
+					<li><?php echo $row['weight'];?></li>
+				</ul>
+			</li>
+			<div><h2>Warranty</h2></div>
+			<li>
+				<div class="wbc">Warranty Summary</div>
+				<ul class="propview">
+					<li><?php echo $row['warranty'];?></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<?php
+			break;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+		<div class="specf">
+		<div class="mhead">Model <?php echo " '".$second_model."'";?></div>
+		<div class="contain">
+			<ul class="datcom">
+			<div><h2>General</h2></div>
+			<li>
+				<div class="wbc">Model Number</div>
+				<ul class="propview">
+					<li><?php echo $row['model_no'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Model Name</div> 
+				<ul class="propview">
+					<li><?php echo $row['model_name'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Color</div> 
+				<ul class="propview">
+					<li><?php echo $row['color'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Browse Type </div>
+				<ul class="propview">
+					<li><?php echo $row['browse_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Sim Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['sim_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Touchscreen </div>
+				<ul class="propview">
+					<li><?php echo $row['touchscreen'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">OTG Compatible</div> 
+				<ul class="propview">
+					<li><?php echo $row['otg_compatible'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Hybrid Sim Slote</div> 
+				<ul class="propview">
+					<li><?php echo $row['hybrid_sim_slote'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Display Features</h2></div>
+			
+			<li>
+				<div class="wbc">Display Size</div> 
+				<ul class="propview">
+					<li><?php echo $row['display_size'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Resolution</div> 
+				<ul class="propview">
+					<li><?php echo $row['resolution'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Resolution Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['resolution_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Display Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['display_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPU</div> 
+				<ul class="propview">
+					<li><?php echo $row['gpu'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Other Display Features</div> 
+				<ul class="propview">
+					<li><?php echo $row['other'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Os & Processor Features</h2></div>
+			
+			<li>
+				<div class="wbc">Operation System</div> 
+				<ul class="propview">
+					<li><?php echo $row['operating_system'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Type</div> 
+				<ul class="propview">
+					<li><?php echo $row['processor_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Core</div> 
+				<ul class="propview">
+					<li><?php echo $row['processor_core'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Processor Clock Speed</div>
+				<ul class="propview">
+					<li><?php echo $row['processor_clock_speed'];?></li>
+				</ul>
+			</li>
+			<li>	
+				<div class="wbc">Operating Frequency</div>
+				<ul class="propview">
+					<li><?php echo $row['operating_frequency'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Memory & Storage Features</h2></div>
+			
+			<li>
+				<div class="wbc">Internal Storage</div> 
+				<ul class="propview">
+					<li><?php echo $row['internal_storage'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">RAM</div>
+				<ul class="propview">
+					<li><?php echo $row['ram'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Expandable Storage</div> 
+				<ul class="propview">
+					<li><?php echo $row['expandable_storage'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Storage Memory Card Type</div>
+				<ul class="propview">
+					<li><?php echo $row['storage_memory_card_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Memory Card Slot Type</div>
+				<ul class="propview">
+					<li><?php echo $row['memory_card_slot_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Call Log Memory</div> 
+				<ul class="propview">
+					<li><?php echo $row['call_log_memory'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Camera Features</h2></div>
+			
+			<li>
+				<div class="wbc">Primary Camera Available</div> 
+				<ul class="propview">
+					<li><?php echo $row['prime_available'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Primary Camera</div>
+				<ul class="propview">
+					<li><?php echo $row['primary_camera'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Primary Camera Features</div>
+				<ul class="propview">
+					<li><?php echo $row['prime_features'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera Available</div> 
+				<ul class="propview">
+					<li><?php echo $row['sec_available'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera</div>
+				<ul class="propview">
+					<li><?php echo $row['secondary_camera'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Secondary Camera Features</div>
+				<ul class="propview">
+					<li><?php echo $row['sec_features'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">HD Recording</div>
+				<ul class="propview">
+					<li><?php echo $row['hd_recording'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Full HD Recording</div> 
+				<ul class="propview">
+					<li><?php echo $row['full_hd_recording'];?></li>
+				</ul>
+			</li>
+			
+			<div><h2>Connectivity Features</h2></div>
+			<li>
+				<div class="wbc">Network Type</div>
+				<ul class="propview">
+					<li><?php echo $row['network_type'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Supported Network</div>
+				<ul class="propview">
+					<li><?php echo $row['supported_network'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">3G</div>
+				<ul class="propview">
+					<li><?php echo $row['3g'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">3G Speed</div>
+				<ul class="propview">
+					<li><?php echo $row['3g_speed'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Pre-installed Browser</div>
+				<ul class="propview">
+					<li><?php echo $row['preinstalled_browser'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Micro USB Port</div>
+				<ul class="propview">
+					<li><?php echo $row['micro_usb_port'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Bluetooth Support</div>
+				<ul class="propview">
+					<li><?php echo $row['bluetooth_support'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Bluetooth Version</div>
+				<ul class="propview">
+					<li><?php echo $row['bluetooth_version'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPRS</div>
+				<ul class="propview">
+					<li><?php echo $row['gprs'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Wi-Fi</div>
+				<ul class="propview">
+					<li><?php echo $row['wifi'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Wi-Fi Version</div>
+				<ul class="propview">
+					<li><?php echo $row['wifi_version'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">USB Connectivity</div>
+				<ul class="propview">
+					<li><?php echo $row['usb_connectivity'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Audio Jack</div>
+				<ul class="propview">
+					<li><?php echo $row['audio_jack'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Map Support</div>
+				<ul class="propview">
+					<li><?php echo $row['map_support'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">GPS Support</div>
+				<ul class="propview">
+					<li><?php echo $row['gps_support'];?></li>
+				</ul>
+			</li>
+			<div><h2>Other Details</h2></div>
+			<li>
+				<div class="wbc">Sim Size</div>
+				<ul class="propview">
+					<li><?php echo $row['sim_size'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">User Interface</div>
+				<ul class="propview">
+					<li><?php echo $row['user_interface'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Removable Battery</div>
+				<ul class="propview">
+					<li><?php echo $row['removable_battery'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">SMS</div>
+				<ul class="propview">
+					<li><?php echo $row['sms'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Sensor</div>
+				<ul class="propview">
+					<li><?php echo $row['sensor'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Other Features</div>
+				<ul class="propview">
+					<li><?php echo $row['other_features'];?></li>
+				</ul>
+			</li>
+			<div><h2>Multimedia Features</h2></div>
+			<li>
+				<div class="wbc">FM Radio</div>
+				<ul class="propview">
+					<li><?php echo $row['fm_radio'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Audio Formate</div>
+				<ul class="propview">
+					<li><?php echo $row['audio_formate'];?></li>
+				</ul>
+			</li>
+			<div><h2>Battery & Power Features</h2></div>
+			<li>
+				<div class="wbc">Battery Capacity</div>
+				<ul class="propview">
+					<li><?php echo $row['battery_capacity'];?></li>
+				</ul>
+			</li>
+			<div><h2>Dimensions</h2></div>
+			<li>
+				<div class="wbc">Width</div>
+				<ul class="propview">
+					<li><?php echo $row['width'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Height</div>
+				<ul class="propview">
+					<li><?php echo $row['height'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">Depth</div>
+				<ul class="propview">
+					<li><?php echo $row['depth'];?></li>
+				</ul>
+			</li>
+			<li>
+				<div class="wbc">weight</div>
+				<ul class="propview">
+					<li><?php echo $row['weight'];?></li>
+				</ul>
+			</li>
+			<div><h2>Warranty</h2></div>
+			<li>
+				<div class="wbc">Warranty Summary</div>
+				<ul class="propview">
+					<li><?php echo $row['warranty'];?></li>
+				</ul>
+			</li>
+		</ul>
+		
+		<?php
+			break;
+		}	
+	
+
+		

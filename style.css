@@ -1,0 +1,13 @@
+*{
+	box-sizing:border-box;
+}
+header{
+	color:#FFF;
+}
+.color:hover{
+	color:#FFF;
+}
+.headerdiv li:hover{
+	background:#FFF;
+	color:#000;
+}
